@@ -1,4 +1,4 @@
-# Sombras en tiempos revueltos
+# La Sombras en tiempos revueltos
 
 :memo: Historia escrita por Manuel Garrido -> [cecrom](https://github.com/cecrom)
 
