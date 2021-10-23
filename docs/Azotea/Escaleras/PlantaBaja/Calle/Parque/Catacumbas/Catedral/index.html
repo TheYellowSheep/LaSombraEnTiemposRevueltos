@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La sombra en tiempos revueltos</title>
+    <!--Archivo con css-->
+    <link rel="stylesheet" href="../../../../../../../Recursos/main.css">
+</head>
+<body onload="catedral()">
+    <!--Inventario-->
+    <div id="inventario">
+        <span>inventario</span>
+        <img id="pistola" class="itemi" src="../../../../../../../Recursos/Imagenes/star.png" alt="">
+        <img id="medallon" class="itemi" src="../../../../../../../Recursos/Imagenes/Medallon_raro.png" alt="">
+        <img id="zippo" class="itemi" src="../../../../../../../Recursos/Imagenes/zippo.png" alt="">
+    </div>
+    <!--Imagen de fondo, borrosa-->
+    <img class="blur" src="../../../../../../../Recursos/Imagenes/Catedral.jpg" alt="">
+    <!--Texto de la página-->
+    <p id="parrafo">Un cántico resuena por la nave principal, en el centro de la misma, hay un grupo de sectarios que parecen estar entonando esos cánticos al unísono.
+        <br> Frente a ellos hay un tapiz enorme con un símbolo extraño.<br>
+    </p>
+    <!--Botones de opciones-->
+    <button id="disparar">Disparar</button>
+    <button id="mecherazo">Lanzar el mechero al tapiz</button>
+    <button id="esconderse">Esconderse</button>
+    <button id="cubrir">Cubrir a La Compañía</button>
+    <button id="seccoro">Sectario del coro</button>
+    <button id="seclibro">Sectario que porta un libro abierto</button>
+    <button id="secorador">Sectario que recita el contenido del libro</button>
+    <!--Botón de ojo,mostrará la imagen sin blur-->
+    <button id="ojo" onclick="alternarimagen()"><img src="../../../../../../../Recursos/Imagenes/ojoabierto.png" alt=""></button>
+    <!--Imagen de animación,se presenta al principio-->
+    <img id="noblur" class="noblur" src="../../../../../../../Recursos/Imagenes/Catedral.jpg" alt="">
+    <!--Script de javascript-->
+    <script src="../../../../../../../Recursos/Action.js"></script>
+</body>
+</html>
