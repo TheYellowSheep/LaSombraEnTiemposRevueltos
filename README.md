@@ -5,3 +5,6 @@
 Pequeña aventura gráfica online inspirada en "El Rey de Amarillo" de Robert William Chambers.
 En esta aventura se usa JavaScript para el desarrollo de la historia según las elecciones tomadas.
 Se usa "localStorage" para almacenar pequeños datos para generar un "inventario" mientras se desarrolla la aventura.
+
+para verla pulsa en este enlace:
+[La Sombre en tiempos revueltos](https://alejandrogonzaleznavarro.github.io/LaSombraEnTiemposRevueltos/)
